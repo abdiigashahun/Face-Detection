@@ -3,7 +3,7 @@
 
 import cv2
 import numpy as np
-import face_recognitions
+import face_recognition
 import os
 from datetime import datetime
 
@@ -70,6 +70,6 @@ while True:
     if cv2.waitKey(10) == 13:
         break
 cap.release()
-cv2.destroyAllWindow()
+cv2.destroyAllWindows()
 
 
