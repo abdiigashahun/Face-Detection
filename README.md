@@ -4,8 +4,6 @@ A Python application that recognizes known faces from a live webcam and records 
 
 The project uses OpenCV for the camera and display, `face_recognition` for face locations and face encodings, NumPy for distance comparisons, and dlib models through the `face_recognition` package.
 
-![Face detection example](https://user-images.githubusercontent.com/28294942/166667109-d2024d8c-9aec-44ed-93f8-8f1d9b66098a.png)
-
 ## What This Project Does
 
 1. Loads one reference image for each person from `Images_Attendance`.
@@ -171,14 +169,14 @@ To stop the application, focus the webcam window and press **Enter**. The camera
 
 ## Run the Optional Image Demo
 
-`main.py` compares two specific images:
+`main.py` compares two images:
 
 ```text
-Images_Attendance/modi-image-for-InUth.jpg
-Images_Attendance/narendra-modi.jpg
+Images_Attendance/person_one.jpg
+Images_Attendance/person_two.jpg
 ```
 
-Place those exact files in `Images_Attendance`, or update the filenames in `main.py`. Then run:
+Place your two images under those filenames, or update the filenames in `main.py`. Then run:
 
 ```bash
 source .venv/bin/activate
